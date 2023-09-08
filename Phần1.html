@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bàn cờ vua</title>
+    <style>        
+        table {
+            width: 600px;
+            height: 600px;
+            border-collapse: collapse;
+
+        }
+
+        .chess1 td:nth-child(odd) {
+            background-color: black;
+        }
+        .chess1 td:nth-child(even) {
+            background-color: white;
+        }
+        .chess2 td:nth-child(even) {
+            background-color: black;
+        }
+        .chess2 td:nth-child(odd) {
+            background-color: white;
+        }
+        /* td{
+            border: 1px solid black;
+        } */
+
+        body{
+            background-color: orange;
+            
+        } 
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th></th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+        </tr>
+        <tr class="chess1">
+            <th>A</th>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <tr class="chess2">
+            <th>B</th>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <tr class="chess1">
+            <th>C</th>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <tr class="chess2">
+            <th>D</th>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <tr class="chess1">
+            <th>E</th>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <tr class="chess2">
+            <th>F</th>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>        
+        <tr class="chess1">
+            <th>G</th>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <tr class="chess2">
+            <th>H</th>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    
+        </table>
+
+</body>
+</html>
